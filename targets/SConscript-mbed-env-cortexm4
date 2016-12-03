@@ -13,6 +13,7 @@ env.Append(MBED_CPU_FLAGS = [
 env.Append(MBED_TARGET = [
   'TARGET_CORTEX_M',
   'TARGET_M4',
+  'TARGET_RTOS_M4_M7',
 ])
 
 env.Append(CPPDEFINES = env['MBED_TARGET'])
